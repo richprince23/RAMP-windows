@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{74E1ADE0-45CD-453C-AFD9-B4062B10C20D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>RAMP.My.MyApplication</StartupObject>
+    <RootNamespace>RAMP</RootNamespace>
+    <AssemblyName>RAMP</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>RAMP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>RAMP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_International_Music.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="PVS.AVPlayer, Version=0.9.1.40, Culture=neutral, PublicKeyToken=141b0ca42e6a532a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\PVS.AVPlayer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.WinControls, Version=2018.1.116.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2018\Bin40\Telerik.WinControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Fluent, Version=2018.1.116.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.MaterialPink, Version=2018.1.116.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2018.1.116.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2018\Bin40\Telerik.WinControls.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2018.1.116.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2018\Bin40\TelerikCommon.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.WindowsAPICodePac" />
+    <Import Include="Microsoft.WindowsAPICodePack" />
+    <Import Include="MS.WindowsAPICodePack" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main1.Designer.vb">
+      <DependentUpon>Main1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mp3Class.vb" />
+    <Compile Include="PLayList.Designer.vb">
+      <DependentUpon>PLayList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PLayList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadAboutBox1.Designer.vb">
+      <DependentUpon>RadAboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RadAboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TagReader.Designer.vb">
+      <DependentUpon>TagReader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TagReader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mini.Designer.vb">
+      <DependentUpon>Mini.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mini.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Main1.resx">
+      <DependentUpon>Main1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLayList.resx">
+      <DependentUpon>PLayList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadAboutBox1.resx">
+      <DependentUpon>RadAboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TagReader.resx">
+      <DependentUpon>TagReader.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mini.resx">
+      <DependentUpon>Mini.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\Play_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skip to Start_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voice_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mute_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Low Volume_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eject_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Repeat One_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voice_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shuffle_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Low Volume_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Record_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Repeat_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skip to Start_24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mute_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audio Wave2_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lounge Music Playlist_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playlist_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Showing Video Frames_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camera_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Compact Camera_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key 2_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Double Left_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\End_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Double Right_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8_International_Music.ico" />
+    <Content Include="PVS.AVPlayer.dll" />
+    <None Include="Resources\icons8_Pause_16.png" />
+    <None Include="Resources\icons8_Pause.ico" />
+    <None Include="Resources\icons8_Rewind_16.png" />
+    <None Include="Resources\icons8_Play_16.png" />
+    <None Include="Resources\icons8_Play.ico" />
+    <None Include="Resources\icons8_Fast_Forward_16.png" />
+    <None Include="Resources\icons8_Fast_Forward.ico" />
+    <None Include="Resources\icons8_Rewind.ico" />
+    <None Include="Resources\play.ico" />
+    <None Include="Resources\International Music_100px.png" />
+    <None Include="Resources\Close Window_16px.png" />
+    <None Include="Resources\Save_24px.png" />
+    <None Include="Resources\Trash_24px.png" />
+    <None Include="Resources\Delete File_24px.png" />
+    <None Include="Resources\Add Folder_24px.png" />
+    <None Include="Resources\Add File_24px.png" />
+    <None Include="Resources\Add Folder_16px.png" />
+    <None Include="Resources\Add File_16px.png" />
+    <None Include="Resources\Transition Both Directions_24px.png" />
+    <None Include="Resources\Frame_24px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

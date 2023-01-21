@@ -1,0 +1,15 @@
+Playback	= Spacebar
+Stop 		= S
+Next		= N
+Previous 	= P
+Shuffle 	= R
+Repeat 		= L
+Playlist	= T
+Fullscreen	= F
+Aspect Ratio 	= C
+Mute		= M
+Ctrl + right	= Skip 1 min
+Ctrl + Left	= Rewind 1 min
+Alt + Right 	= Skip 10s
+ALt + Left	= Rewind 10s
+Ctrl + Q 	= Quit Application
